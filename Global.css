@@ -52,13 +52,14 @@ header img{
   height: auto;
 }
 
-
 .menu {
   display: flex;
   align-items:center;
   column-gap: 50px;
   list-style: none; 
-  background-color: color #333;   
+  background-color: color #333;
+  position: absolute;
+  left: 50%;
 }
 
 .menu_link{
