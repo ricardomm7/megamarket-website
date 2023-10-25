@@ -12,7 +12,6 @@
   
   :root {
     --text: #ffffff;
-  
   }
   
   body, button, a {
@@ -27,11 +26,6 @@
   button:hover {
     cursor: pointer;
   }
-
-header img{
-  width: 175px;
-  height: auto;
-}
 
 .menu {
   display: flex;
@@ -51,16 +45,16 @@ header img{
 
 .menu-links a {
   text-decoration: none;
-  margin: 0 10px;
+  margin: 10px;
   color: white;
   background: #333333;
 }
 
-.menu_link:hover{
-  color: var(--green);
+.menu-links a:hover {
+  color: rgb(255, 161, 30);
 }
 
-.menu_link::after{
+.menu-links::after{
   content: '';
   position: absolute;
   left: 0;
@@ -72,7 +66,7 @@ header img{
   transform-origin: right;
   transition: transform 400ms
 }
-.menu_link:hover::after{
+.menu-links:hover::after{
   transform: scale(1);
   transform-origin: left;
   transition: transform 4000ms
