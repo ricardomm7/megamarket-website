@@ -1,5 +1,6 @@
 @import url(Main.css);
 @import url('Header.css');
+@import url('Body.css');
 
 * {
     padding: 0;
@@ -8,11 +9,12 @@
   }
   
   :root {
-    --text: #EDF1F7;
+    --text: #ffffff;
     --red: #C51212;
     --blue: #0041C2;
     --green: #14B02D;
     --yellow: #ffc12b;
+  
   }
   
   body, button, a {
@@ -33,6 +35,6 @@
     flex-direction: column;
     align-items: center;
 
-    width: 100%;
+    
     height: 100%;
 }
