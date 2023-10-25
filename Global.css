@@ -33,15 +33,12 @@ button:hover {
   height: 35px;
   width: auto;
   display: flex;
-  background: #333333;
 }
 
 .menu-links a {
   text-decoration: none;
   margin: 10px;
   color: white;
-  background: #333333;
-
   position: relative;
 }
 
