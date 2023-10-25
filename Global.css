@@ -37,7 +37,7 @@ button:hover {
 
 .menu-links a {
   text-decoration: none;
-  margin: 10px;
+  margin: 20px;
   color: white;
   position: relative;
 }
@@ -56,7 +56,7 @@ button:hover {
   background-color: #ff9100;
   transform: scaleX(0);
   transform-origin: right;
-  transition: transform 2000ms
+  transition: transform 1000ms
 }
 
 .menu-links a:hover:after{
