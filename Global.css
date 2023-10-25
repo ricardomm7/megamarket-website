@@ -78,6 +78,29 @@ header img{
 } 
 
 
+.menu _link:hover{
+  color: var(--green);
+}
+
+.menu_link::after{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 60%;
+  height: 1px;
+  background: var(--green);
+
+  transform: scale(0);
+  transform-origin: right;
+  transition: transform 400ms
+}
+.menu_link:hover::after{
+  transform: scale(1);
+  transform-origin: left;
+  transition: transform 4000ms
+
+}
 main{
   flex: 1;
 
