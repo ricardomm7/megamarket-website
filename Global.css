@@ -28,14 +28,6 @@
     cursor: pointer;
   }
 
-.app{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 100%;
-    width: 100%;
-}
-
 header {
   display: flex;
   align-items: center;
@@ -54,19 +46,24 @@ header img{
 
 .menu {
   display: flex;
-  align-items:center;
-  column-gap: 50px;
-  list-style: none; 
-  background-color: color #333;
-  position: absolute;
-  left: 50%;
+  background-color: #333333;
+  height: 50px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px; 
+  color: white; 
 }
 
-.menu_link{
-  position:relative;
-  align-items: end;
-} 
+.menu-logo img {
+  height: 30px;
+  width: auto;
+}
 
+.menu-links a {
+  text-decoration: none;
+  margin: 0 10px;
+  color: white;
+}
 
 .menu_link:hover{
   color: var(--green);
