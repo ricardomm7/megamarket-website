@@ -41,24 +41,24 @@ header {
   display: flex;
   align-items: center;
   column-gap: 64px;
-
-  width: 96%;
+  width: 95%;
   padding-top: 25 px;
-  margin-left: 20px;
+  margin-left: 25px;
   margin-right: 20px;
+  margin-top: 25px;
 
-  background: color #333;opacity: 0.8;
+  background: color #333;
 }
 
 header img{
-  width: 70px;
+  width: 175px;
   height: auto;
 }
 
 
 .navegação {
   display: flex;
-  align-items: center;
+  align-items:center;
   column-gap: 50px;
 
   list-style: none;    
@@ -70,7 +70,8 @@ header img{
   letter-spacing: 3px;
   text-transform: uppercase;
 
-  position: relative;
+  position:relative;
+  align-items: end;
 } 
 
 .navigação_link:hover{
