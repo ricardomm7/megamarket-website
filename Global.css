@@ -56,14 +56,13 @@ button:hover {
   background-color: #ff9100;
   transform: scaleX(0);
   transform-origin: right;
-  transition: transform 4000ms
+  transition: transform 2000ms
 }
 
 .menu-links a:hover:after{
   transform: scaleX(1);
   transform-origin: left;
   transition: transform 1000ms
-  transition: transform 4000ms
 
 }
 
@@ -93,17 +92,7 @@ padding-top: 77px;
   font-weight: 700;
 }
 
-.titulo2{
-  color: #FFF;
-  text-align: center;
-  font-family: "Montserrat", sans-serif;
-  font-size: 120px;
-  font-style: bold;
-  font-weight: 700;
-  font-style: normal;
- 
 
-}
 
 
 
