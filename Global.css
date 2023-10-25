@@ -43,24 +43,24 @@ button:hover {
   background: #333333;
 }
 
-.menu-links:hover{
+.menu-links a:hover{
   color: #333777;
 }
 
-.menu-links::after{
+.menu-links a:after{
   content: '';
   position: absolute;
   left: 0;
   bottom: -2px;
-  width: 60%;
+  width: 80%;
   height: 3px;
   background-color: white;
   transform: scaleX(0);
   transform-origin: right;
   transition: transform 4000ms
 }
-.menu-links:hover::after{
-  transform: scale(1);
+.menu-links a:hover:after{
+  transform: scaleX(1);
   transform-origin: left;
   transition: transform 4000ms
 
