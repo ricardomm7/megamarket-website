@@ -1,11 +1,13 @@
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url(Media/Montserrat-VariableFont_wght.ttf)
+  }
+
 main{
     flex: 1;
-
     display: flex;
     align-items: center;
     justify-content: space-between;
-
-
     margin-right: 20px;
     margin-left: 20px;
 }
