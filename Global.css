@@ -41,13 +41,15 @@ button:hover {
   margin: 10px;
   color: white;
   background: #333333;
+
+  position: relative;
 }
 
 .menu-links a:hover{
-  color: #333777;
+  color: #ff9100;
 }
 
-.menu-links a:after{
+.menu-links a::after{
   content: '';
   position: absolute;
   left: 0;
