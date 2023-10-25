@@ -25,8 +25,10 @@ button:hover {
   height: 65px;
   align-items: center;
   justify-content: space-between;
-  padding: 0 15%; 
+  padding: 0 10%; 
   color: white; 
+  font-family:"Montserrat", sans-serif;
+  font-style: bold;
 }
 
 .menu-logo img {
