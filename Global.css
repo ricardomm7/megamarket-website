@@ -67,7 +67,7 @@ header img{
   background-color: color #333;   
 }
 
-.menu _link{
+.menu_link{
   font-size: 25px;
   font-weight: 300;
   letter-spacing: 3px;
@@ -78,7 +78,7 @@ header img{
 } 
 
 
-.menu _link:hover{
+.menu_link:hover{
   color: var(--green);
 }
 
