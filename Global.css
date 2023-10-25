@@ -1,11 +1,6 @@
 @font-face {
   font-family: Montserrat-Bold;
-  src: url(Media/Montserrat-Bold.ttf)
-}
-
-@font-face {
-  font-family: Montserrat-Medium;
-  src: url(Media/Montserrat-Medium.ttf)
+  src: url(Media/Montserrat-VariableFont_wght.ttf)
 }
 
 * {
@@ -41,8 +36,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    
+  
     height: 100%;
     width: 100%;
 }
