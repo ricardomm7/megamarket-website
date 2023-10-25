@@ -56,24 +56,25 @@ header img{
   background: #333333;
 }
 
-.menu_link:hover{
-  color: var(--green);
+.menu-link:hover{
+  color:green;
 }
 
-.menu_link::after{
+.menu-link::after{
   content: '';
   position: absolute;
   left: 0;
   bottom: -2px;
   width: 60%;
   height: 3px;
-  background: var(--text);
-  transform: scale(0);
+  background-color: white;
+  transform: scaleX(0);
   transform-origin: right;
-  transition: transform 400ms
+  transition: transform 4000ms
 }
-.menu_link:hover::after{
-  transform: scale(1);
+
+.menu-link:hover::after{
+  transform: scaleX(1);
   transform-origin: left;
   transition: transform 4000ms
 
