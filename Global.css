@@ -90,7 +90,6 @@ header img{
   width: 60%;
   height: 1px;
   background: var(--green);
-
   transform: scale(0);
   transform-origin: right;
   transition: transform 400ms
