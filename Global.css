@@ -3,28 +3,24 @@
   src: url(Media/Montserrat-VariableFont_wght.ttf)
 }
 
-* {
-    padding: 0;
+body {
+    padding: 0px;
     margin: 0;
     box-sizing: border-box;
     background-color: #333777;
   }
   
-  :root {
+:root {
     --text: #ffffff;
   }
   
-  body, button, a {
+body, button, a {
     color: var(--text);
     font-family: "Montserrat", sans-serif;
   }
   
-  a {
-    text-decoration: none;
-  }
-  
-  button:hover {
-    cursor: pointer;
+button:hover {
+    cursor:default;
   }
 
 .menu {
