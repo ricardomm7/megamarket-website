@@ -90,7 +90,8 @@ header img{
   transition: transform 4000ms
 
 }
-main{
+
+.main{
   flex: 1;
 
   display: flex;
@@ -101,4 +102,33 @@ main{
   margin-right: 20px;
   margin-left: 20px;
 }
+
+.slogan {
+  padding-top: 77px;
+
+}
+
+.titulo1{
+  color: #FFF;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 180px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 84.4%; /* 151.92px */
+  
+}
+.titulo2{
+  color: #FFF;
+  text-align: center;
+font-family: Montserrat;
+font-size: 120px;
+font-style: normal;
+font-weight: 700;
+line-height: 84.4%;
+
+
+}
+
+
 
