@@ -1,12 +1,8 @@
-@import url(Main.css);
-@import url('Header.css');
-@import url('Body.css');
-
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-image: url("Media/Background Model.jpg");
+    background-color: #1f1f1f;
   }
   
   :root {
@@ -38,4 +34,127 @@
 
     
     height: 100%;
+    width: 100%;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  column-gap: 64px;
+
+  width: 96%;
+  padding-top: 25 px;
+  margin-left: 20px;
+  margin-right: 20px;
+
+  background: color #333;opacity: 0.8;
+}
+
+header img{
+  width: 70px;
+  height: auto;
+}
+
+
+.navegação {
+  display: flex;
+  align-items: center;
+  column-gap: 50px;
+
+  list-style: none;    
+}
+
+.navigação_link{
+  font-size: 25px;
+  font-weight: 300;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+
+  position: relative;
+} 
+
+.navigação_link:hover{
+  color: var(--green);
+}
+
+.navigação_link::after{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 60%;
+  height: 1px;
+  background: var(--green);
+
+  transform: scale(0);
+  transform-origin: right;
+  transition: transform 400ms
+}
+
+.navigação_link:hover::after{
+  transform: scale(1);
+  transform-origin: left;
+  transition: transform 4000ms
+
+}
+main{
+  flex: 1;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.Main__info{
+  width: 100%;
+  max-width: 580px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.Main__info p{
+  font-size: 19px;
+  margin: 20px 0 28px;
+}
+
+.Main__info div{
+  display: flex;
+  column-gap: 25px;
+}
+
+.Main__info div a,.Main__info div button{
+ width: 100%;
+ height: 45px;
+ padding: 10px 0;
+ border-radius: 5px;
+
+
+ font-size: 19px;
+ font-weight: 700;
+ text-transform: uppercase;
+ letter-spacing: 0.4px;
+
+ transform: skew(-5deg)
+
+}
+
+.Main__info div a {
+  background: var(--red);
+  text-align: center;
+}
+
+.Main__info div button{
+  background: var(--red);
+  text-align: center;
+
+
+}
+
+.Main__info img{
+  width: auto;
+  height: 250px;
 }
