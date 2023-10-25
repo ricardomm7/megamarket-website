@@ -36,22 +36,24 @@ header img{
 .menu {
   display: flex;
   background-color: #333333;
-  height: 50px;
+  height: 65px;
   align-items: center;
   justify-content: space-between;
-  padding: 0 20px; 
+  padding: 0 10%; 
   color: white; 
 }
 
 .menu-logo img {
-  height: 30px;
+  height: 35px;
   width: auto;
+  background: #333333;
 }
 
 .menu-links a {
   text-decoration: none;
   margin: 0 10px;
   color: white;
+  background: #333333;
 }
 
 .menu_link:hover{
