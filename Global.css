@@ -1,5 +1,5 @@
 @font-face {
-  font-family: Montserrat;
+  font-family: Montserrat-Bold;
   src: url(Media/Montserrat-VariableFont_wght.ttf)
 }
 
@@ -17,7 +17,7 @@
   
   body, button, a {
     color: var(--text);
-    font-family: Montserrat, sans-serif;
+    font: 400 1rem "Mukta", sans-serif;
   }
   
   a {
@@ -62,13 +62,18 @@ header img{
   background-color: color #333;   
 }
 
-.menu_link{
-  display: flex;
-  justify-content: space-between;
-  align-items: right;
+.menu _link{
+  font-size: 25px;
+  font-weight: 300;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+
+  position:relative;
+  align-items: end;
 } 
 
-.menu _link:hover{
+
+.menu_link:hover{
   color: var(--green);
 }
 
