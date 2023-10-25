@@ -63,11 +63,6 @@ header img{
 }
 
 .menu_link{
-  font-size: 25px;
-  font-weight: 300;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-
   position:relative;
   align-items: end;
 } 
