@@ -94,17 +94,17 @@ button:hover {
   font-size: 180px;
   font-style: normal;
   font-weight: 700;
-  line-height: 84.4%; /* 151.92px */
+  
   
 }
 .titulo2{
   color: #FFF;
   text-align: center;
-font-family: Montserrat;
-font-size: 120px;
-font-style: normal;
-font-weight: 700;
-line-height: 84.4%;
+  font-family: Montserrat;
+  font-size: 120px;
+  font-style: normal;
+  font-weight: 700;
+ 
 
 
 }
