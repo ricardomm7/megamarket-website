@@ -10,12 +10,8 @@ body{
     background-color: #333777;
   }
   
-:root {
-    --text: #ffffff;
-  }
-  
 body, button, a {
-    color: var(--text);
+    color: white;
     font-family: "Montserrat", sans-serif;
   }
   
