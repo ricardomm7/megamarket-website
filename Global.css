@@ -27,8 +27,6 @@ button:hover {
   justify-content: space-between;
   padding: 0 10%; 
   color: white; 
-  font-family:"Montserrat", sans-serif;
-  font-style: bold;
 }
 
 .menu-logo img {
@@ -65,7 +63,6 @@ button:hover {
   transform: scaleX(1);
   transform-origin: left;
   transition: transform 1000ms
-
 }
 
 .main{
@@ -82,7 +79,6 @@ button:hover {
 
 .slogan {
 padding-top: 77px;
-
 }
 
 .titulo1{
