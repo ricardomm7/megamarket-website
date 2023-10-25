@@ -66,7 +66,7 @@ header img{
 }
 
 
-.navegação {
+.menu {
   display: flex;
   align-items:center;
   column-gap: 50px;
@@ -74,7 +74,7 @@ header img{
   list-style: none;    
 }
 
-.navigação_link{
+.menu _link{
   font-size: 25px;
   font-weight: 300;
   letter-spacing: 3px;
@@ -84,11 +84,11 @@ header img{
   align-items: end;
 } 
 
-.navigação_link:hover{
+.menu _link:hover{
   color: var(--green);
 }
 
-.navigação_link::after{
+.menu_link::after{
   content: '';
   position: absolute;
   left: 0;
@@ -101,8 +101,7 @@ header img{
   transform-origin: right;
   transition: transform 400ms
 }
-
-.navigação_link:hover::after{
+.menu_link:hover::after{
   transform: scale(1);
   transform-origin: left;
   transition: transform 4000ms
