@@ -22,7 +22,7 @@ button:hover {
 .menu {
   display: flex;
   background-color: #333333;
-  height: 65px;
+  height: 100px;
   align-items: center;
   justify-content: space-between;
   padding: 0 10%; 
@@ -30,7 +30,7 @@ button:hover {
 }
 
 .menu-logo img {
-  height: 35px;
+  height: 55px;
   width: auto;
   display: flex;
 }
@@ -40,6 +40,7 @@ button:hover {
   margin: 20px;
   color: white;
   position: relative;
+  font-size: 20px;
 }
 
 .menu-links :hover{
