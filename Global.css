@@ -116,6 +116,24 @@ padding-top: 37px;
   margin-top: -110px;
   
 }
+.main-ideia h1 {
+  text-align: center;
+  color: #1E1E1E;
+  font-size: 90px;
+  font-family: Montserrat;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+.pequenafrase {
+  width: 810px;
+  text-align: center;
+  color: black;
+  font-size: 25px;
+  font-family: Montserrat;
+  font-weight: 500;
+  word-wrap: break-word;
+  margin-top: -40px
+}
 
 
 
