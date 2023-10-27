@@ -110,7 +110,7 @@ padding-top: 37px;
 
 .main-fundocinzento{
   width: 100%;
-  height: 140%;
+  height: 100%;
   background-color: #333333;
   position: absolute;
 } 
@@ -118,7 +118,7 @@ padding-top: 37px;
 .main-parabola img{
   width: 100%;
   height: auto;
-  margin-top: -500px;
+  margin-top: -200px;
 }
 
 .main-ideia h1 {
