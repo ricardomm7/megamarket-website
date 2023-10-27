@@ -99,18 +99,18 @@ padding-top: 37px;
 }
 
 .main-telemovel img {
-  height: 600px;
+  height: 750px;
   width: auto;
   flex-shrink: 0;
   display: flex;
   position: relative;
-  margin-top: -70px;
+  margin-top: -80px;
   z-index: 999;
 }
 
 .main-fundocinzento{
   width: 100%;
-  height: 95%;
+  height: 100%;
   background-color: #333333;
   position: absolute;
 } 
@@ -118,7 +118,7 @@ padding-top: 37px;
 .main-parabola img{
   width: 100%;
   height: auto;
-  margin-top: -110px;
+  margin-top: -500px;
 }
 
 .main-ideia h1 {
