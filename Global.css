@@ -3,6 +3,15 @@
   src: url(Media/Montserrat-VariableFont_wght.ttf)
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
 body{
     padding: 0;
     margin: 0;
