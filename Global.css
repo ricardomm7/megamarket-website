@@ -185,5 +185,16 @@ padding-top: 37px;
   z-index: 998;
 }
 
+.pequenafrase2{
+  width: 100%;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.20); 
+  font-size: 25px; 
+  font-family: Montserrat; 
+  font-weight: 500; 
+  word-wrap: break-word;
+  z-index: 999;
+}
+
 
 
