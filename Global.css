@@ -143,14 +143,6 @@ padding-top: 37px;
   margin-top: -50px
 }
 
-.imgprot img{
-  position: relative;
-  white-space: nowrap;
-  height: 350px ;
-  width: auto;
-  border-radius: 27px;
-}
-
 .app h1{  
   padding-top: 5%;
   margin-top: -5px;
@@ -159,18 +151,6 @@ padding-top: 37px;
   font-size: 80px;
   font-family: Montserrat;
   word-wrap: break-word;
-}
-
-.pequenafrase_app {
-  padding-top: 1.5%;
-  width: 810px;
-  text-align: center;
-  color: black;
-  font-size: 18px;
-  font-family: Montserrat;
-  font-weight: 500;
-  word-wrap: break-word;
-  margin-top: -50px
 }
 
 .equipa h1 {
@@ -214,15 +194,6 @@ padding-top: 37px;
   width: auto;
   position: absolute;
   z-index: 998;
-}
-
-.pequenafrase2 {
-  color: rgba(255, 255, 255, 0.20);
-  text-align: center;
-  font-family: Montserrat;
-  font-size: 25px;
-  font-style: normal;
-  z-index: 999;
 }
 
 
