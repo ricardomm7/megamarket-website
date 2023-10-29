@@ -164,11 +164,12 @@ padding-top: 37px;
 }
 
 .imgequipa img{
-  margin: 1.5%;
-  height: 380px;
+  margin: 1%;
+  height: 350px;
   width: auto;
   align-items: center;
   flex-shrink: 2;
+  margin-top: -15px;
 }
 
 .vectorrodape img{
