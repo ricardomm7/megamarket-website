@@ -189,12 +189,9 @@ padding-top: 37px;
   width: 100%;
   text-align: center;
   color: rgba(255, 255, 255, 0.20); 
-  font-size: 25px; 
+  font-size: 10px; 
   font-family: Montserrat; 
   font-weight: 500; 
   word-wrap: break-word;
   z-index: 999;
 }
-
-
-
