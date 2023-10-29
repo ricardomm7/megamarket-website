@@ -131,18 +131,6 @@ padding-top: 37px;
   word-wrap: break-word;
 }
 
-.pequenafrase {
-  padding: top 1.5%; ;
-  width: 810px;
-  text-align: center;
-  color: black;
-  font-size: 18px;
-  font-family: Montserrat;
-  font-weight: 500;
-  word-wrap: break-word;
-  margin-top: -50px
-}
-
 .app h1{  
   padding-top: 5%;
   margin-top: -5px;
