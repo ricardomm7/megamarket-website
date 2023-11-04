@@ -241,13 +241,15 @@ padding-top: 37px;
   background-image: url(Media/fundoideia.jpg);
   height: 500px;
   background-position: center;
-  justify-content: center;
+  display: flex;
+  align-items: center;
 }
 
 .textouniverso p{
   margin: -1%;
   margin-left: 10%;
   letter-spacing: 1px;
+  width: max-content;
 }
 
 .textouniverso .parte6{
