@@ -175,3 +175,51 @@ padding-top: 37px;
   word-wrap: break-word;
   z-index: 999;
 }
+
+.contentorideia {
+  display: flex; 
+  justify-content: center;
+}
+
+.subsc1ideia{
+  display: flex;
+  align-items: center;
+}
+
+.subsc1ideia img{
+  height: auto;
+  width: 50%;
+}
+
+.subsc1ideia .parte1 {
+  font-size: 350%;
+  color: #333333;
+  font-weight: bold;
+}
+
+.subsc1ideia .parte1-1 {
+  font-size: 350%;
+  color: #333333;
+  font-weight: bold;
+}
+
+.subsc1ideia .parte2 {
+  font-size: 350%;
+  color: #FF9100;
+  font-weight: bold;  
+}
+
+.subsc1ideia .parte3 {
+  font-size: 350%;
+  color: #333333;
+  font-weight: bold;
+}
+
+.subsc1ideia p{
+  margin: -1%;
+}
+
+.texto-direita {
+  flex: 1;
+  text-align: right;
+}
