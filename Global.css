@@ -235,3 +235,28 @@ padding-top: 37px;
   width: 35%;
   height: auto;
 }
+
+.universo{
+  margin-top: 5%;
+  background-image: url(Media/fundoideia.jpg);
+  height: 500px;
+  background-position: center;
+  justify-content: center;
+}
+
+.textouniverso p{
+  margin: -1%;
+  margin-left: 10%;
+  letter-spacing: 1px;
+}
+
+.textouniverso .parte6{
+  font-size: 200%;
+  font-weight: bold;
+  opacity: 0.5 ;
+}
+
+.textouniverso .parte7{
+  font-size: 350%;
+  font-weight: bold;
+}
