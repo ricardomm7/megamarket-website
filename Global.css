@@ -337,14 +337,55 @@ padding-top: 37px;
 }
 
 .subsc2design {
-  margin-top: 3%;
-  margin-bottom: 3%;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
 }
 
 .subsc2design p{
   margin: -1%;
-  font-size: 250%;
+  font-size: 275%;
   color: #f1f1f1;
   font-weight: bold;
   text-align: center;
+}
+
+.appdesign3{
+  width: 75%; 
+  height: 100%; 
+  background-color: #F1F1F1; 
+  background-position: center;
+  border-radius: 50px;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.8%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contentordesign3 {
+  display: flex; 
+  justify-content: center;
+}
+
+.subsc3design {
+  margin-top: 9%;
+  margin-bottom: 9%;
+  text-align: center;
+}
+
+.subsc3design .parte8{
+  font-size: 270%;
+  color: #FF9100;
+  font-weight: bold;  
+}
+
+.subsc3design .parte9{
+  font-size: 270%;
+  color: #333333;
+  font-weight: bold;  
+}
+
+.subsc3design p{
+  margin: -1%;
 }
