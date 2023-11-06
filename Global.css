@@ -12,20 +12,22 @@ html {
   height: 0;
 }
 
-body{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    background-color: #ffffff;
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #ffffff;
 }
-  
-body, button, a {
-    color: white;
-    font-family: "Montserrat", sans-serif;
+
+body,
+button,
+a {
+  color: white;
+  font-family: "Montserrat", sans-serif;
 }
-  
+
 button:hover {
-    cursor:default;
+  cursor: default;
 }
 
 .menu {
@@ -34,7 +36,7 @@ button:hover {
   height: 60px;
   align-items: center;
   justify-content: space-between;
-  padding: 0 13%; 
+  padding: 0 13%;
   color: white;
 }
 
@@ -52,11 +54,11 @@ button:hover {
   font-size: 15px;
 }
 
-.menu-links :hover{
+.menu-links :hover {
   color: #ff9100;
 }
 
-.menu-links a::after{
+.menu-links a::after {
   content: '';
   position: absolute;
   left: 0;
@@ -69,13 +71,13 @@ button:hover {
   transition: transform 1000ms
 }
 
-.menu-links a:hover::after{
+.menu-links a:hover::after {
   transform: scaleX(1);
   transform-origin: left;
   transition: transform 1000ms;
 }
 
-.main{
+.main {
   flex: 1;
   display: flex;
   align-items: center;
@@ -86,16 +88,16 @@ button:hover {
 }
 
 .slogan {
-padding-top: 37px;
+  padding-top: 37px;
 }
 
 .titulo1 div {
   color: #FFF;
   text-align: center;
-  font-family:"Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 180px;
   font-style: bold;
-  position:fixed;
+  position: fixed;
 }
 
 .main-telemovel img {
@@ -107,14 +109,14 @@ padding-top: 37px;
   margin-top: -80px;
 }
 
-.main-fundocinzento{
+.main-fundocinzento {
   width: 100%;
   height: 725px;
   background-color: #333333;
   position: absolute;
-} 
+}
 
-.main-parabola{
+.main-parabola {
   width: 100%;
   height: auto;
   margin-top: -280px;
@@ -130,7 +132,7 @@ padding-top: 37px;
   word-wrap: break-word;
 }
 
-.app h1{  
+.app h1 {
   padding-top: 3%;
   margin-top: 2.5%;
   text-align: center;
@@ -150,7 +152,7 @@ padding-top: 37px;
   word-wrap: break-word;
 }
 
-.imgequipa img{
+.imgequipa img {
   margin: 1%;
   height: 350px;
   width: auto;
@@ -160,20 +162,20 @@ padding-top: 37px;
 }
 
 .curva {
- /*precisa-se de adicionar algo aqui para tirar aquela linha branca nojenta do fundo do site*/
+  /*precisa-se de adicionar algo aqui para tirar aquela linha branca nojenta do fundo do site*/
 }
 
 .contentorideia {
-  display: flex; 
+  display: flex;
   justify-content: center;
 }
 
-.subsc1ideia{
+.subsc1ideia {
   display: flex;
   align-items: center;
 }
 
-.subsc1ideia img{
+.subsc1ideia img {
   height: auto;
   width: 50%;
 }
@@ -187,10 +189,10 @@ padding-top: 37px;
 .subsc1ideia .parte2 {
   font-size: 350%;
   color: #FF9100;
-  font-weight: bold;  
+  font-weight: bold;
 }
 
-.subsc1ideia p{
+.subsc1ideia p {
   margin: -1%;
 }
 
@@ -227,7 +229,7 @@ padding-top: 37px;
   text-align: left;
 }
 
-.subsc2ideia p{
+.subsc2ideia p {
   margin: -1%;
 }
 
@@ -236,7 +238,7 @@ padding-top: 37px;
   height: auto;
 }
 
-.universo{
+.universo {
   margin-top: 5%;
   background-image: url(Media/fundoideia.jpg);
   height: 550px;
@@ -245,30 +247,30 @@ padding-top: 37px;
   align-items: center;
 }
 
-.textouniverso p{
+.textouniverso p {
   margin: -1%;
   margin-left: 10%;
   letter-spacing: 1px;
   width: max-content;
 }
 
-.textouniverso .parte6{
+.textouniverso .parte6 {
   font-size: 200%;
   font-weight: bold;
-  opacity: 0.5 ;
+  opacity: 0.5;
 }
 
-.textouniverso .parte7{
+.textouniverso .parte7 {
   font-size: 350%;
   font-weight: bold;
 }
 
-.appdesign{
-  width: 75%; 
-  height: 100%; 
-  background: #F1F1F1; 
+.appdesign {
+  width: 75%;
+  height: 100%;
+  background: #F1F1F1;
   border-radius: 50px;
-  display: flex; 
+  display: flex;
   justify-content: center;
   align-items: center;
   margin-left: auto;
@@ -276,16 +278,16 @@ padding-top: 37px;
 }
 
 .contentordesign {
-  display: flex; 
+  display: flex;
   justify-content: center;
 }
 
-.subsc1design{
+.subsc1design {
   display: flex;
   align-items: center;
 }
 
-.subsc1design img{
+.subsc1design img {
   height: auto;
   width: 35%;
   margin-top: 1%;
@@ -300,21 +302,21 @@ padding-top: 37px;
 .subsc1design .parte2 {
   font-size: 350%;
   color: #FF9100;
-  font-weight: bold;  
+  font-weight: bold;
 }
 
-.subsc1design p{
+.subsc1design p {
   margin: -1%;
   margin-left: 5%;
 }
 
-.appdesign2{
-  width: 75%; 
-  height: 100%; 
-  background-image: url(Media/mosaicoapps.webp); 
+.appdesign2 {
+  width: 75%;
+  height: 100%;
+  background-image: url(Media/mosaicoapps.webp);
   background-position: center;
   border-radius: 50px;
-  display: flex; 
+  display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 1.8%;
@@ -324,12 +326,12 @@ padding-top: 37px;
 
 .contentordesign2 {
   justify-content: center;
-  width: 100%; 
-  height: 100%; 
-  background-color: rgba(51, 51, 51, 0.6); 
+  width: 100%;
+  height: 100%;
+  background-color: rgba(51, 51, 51, 0.6);
   backdrop-filter: blur(10px);
   border-radius: 50px;
-  display: flex; 
+  display: flex;
   align-items: center;
   margin-top: 20%;
   margin-left: auto;
@@ -341,7 +343,7 @@ padding-top: 37px;
   margin-bottom: 2.5%;
 }
 
-.subsc2design p{
+.subsc2design p {
   margin: -1%;
   font-size: 275%;
   color: #f1f1f1;
@@ -349,12 +351,12 @@ padding-top: 37px;
   text-align: center;
 }
 
-.appdesign3{
-  width: 35.7%; 
-  height: auto; 
-  background-color: #F1F1F1; 
+.appdesign3 {
+  width: 35.7%;
+  height: 100%;
+  background-color: #F1F1F1;
   border-radius: 50px;
-  display: flex; 
+  display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 1.8%;
@@ -363,42 +365,42 @@ padding-top: 37px;
 }
 
 .contentordesign3 {
-  display: flex; 
+  display: flex;
   justify-content: center;
 }
 
 .subsc3design {
-  margin-top: 9%;
+  margin-top: 13%;
   text-align: center;
 }
 
 .subsc3design img {
-  margin-top: 9%;
+  margin-top: 13%;
   height: 325px;
 }
 
-.subsc3design .parte8{
+.subsc3design .parte8 {
   font-size: 270%;
   color: #FF9100;
-  font-weight: bold;  
+  font-weight: bold;
 }
 
-.subsc3design .parte9{
+.subsc3design .parte9 {
   font-size: 270%;
   color: #333333;
-  font-weight: bold;  
+  font-weight: bold;
 }
 
-.subsc3design p{
-  margin: -1%;
+.subsc3design p {
+  margin: -3%;
 }
 
-.appdesign4{
-  width: 35.7%; 
-  height: 100%; 
-  background-color: #333333; 
+.appdesign4 {
+  width: 35.7%;
+  height: 100%;
+  background-color: #333333;
   border-radius: 50px;
-  display: flex; 
+  display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 1.8%;
@@ -407,7 +409,7 @@ padding-top: 37px;
 }
 
 .contentordesign4 {
-  display: flex; 
+  display: flex;
   justify-content: center;
 }
 
@@ -418,30 +420,30 @@ padding-top: 37px;
 }
 
 .contentorcontentordesign {
-  display: flex; 
+  display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.subsc4design .parte89{
+.subsc4design .parte89 {
   font-size: 300%;
   color: #f1f1f1;
-  font-weight: bold;  
+  font-weight: bold;
 }
 
-.subsc4design .parte90{
+.subsc4design .parte90 {
   font-size: 300%;
   color: #00FF66;
-  font-weight: bold; 
+  font-weight: bold;
 }
 
-.subsc4design p{
+.subsc4design p {
   margin: -1%;
 }
 
-.textomaisclaro{
+.textomaisclaro {
   font-size: 100%;
   color: #ffffff;
   opacity: 0.3;
-  font-weight: normal;  
+  font-weight: normal;
 }
