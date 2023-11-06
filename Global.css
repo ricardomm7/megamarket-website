@@ -350,17 +350,16 @@ padding-top: 37px;
 }
 
 .appdesign3{
-  width: 75%; 
+  width: 35.7%; 
   height: 100%; 
   background-color: #F1F1F1; 
-  background-position: center;
   border-radius: 50px;
   display: flex; 
   justify-content: center;
   align-items: center;
   margin-top: 1.8%;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: 1.8%;
 }
 
 .contentordesign3 {
@@ -370,8 +369,12 @@ padding-top: 37px;
 
 .subsc3design {
   margin-top: 9%;
-  margin-bottom: 9%;
   text-align: center;
+}
+
+.subsc3design img {
+  margin-top: 9%;
+  height: 325px;
 }
 
 .subsc3design .parte8{
@@ -388,4 +391,33 @@ padding-top: 37px;
 
 .subsc3design p{
   margin: -1%;
+}
+
+.appdesign4{
+  width: 35.7%; 
+  height: 100%; 
+  background-color: #333333; 
+  border-radius: 50px;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.8%;
+  margin-left: 1.8%;
+  margin-right: auto;
+}
+
+.contentordesign3 {
+  display: flex; 
+  justify-content: center;
+}
+
+.subsc3design {
+  margin-top: 9%;
+  text-align: center;
+}
+
+.contentorcontentordesign {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
 }
