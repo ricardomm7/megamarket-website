@@ -290,7 +290,7 @@ button:hover {
 .subsc1design img {
   height: auto;
   width: 35%;
-  margin-top: 1%;
+  margin-top: 3%;
 }
 
 .subsc1design .parte1 {
@@ -306,7 +306,7 @@ button:hover {
 }
 
 .subsc1design p {
-  margin: -1%;
+  margin: -3%;
   margin-left: 5%;
 }
 
@@ -451,4 +451,49 @@ button:hover {
   color: #ffffff;
   opacity: 0.3;
   font-weight: normal;
+}
+
+.appdesign5 {
+  width: 75%;
+  height: 100%;
+  background: #F1F1F1;
+  border-radius: 50px;
+  display: flex;
+  margin-top: 1.8%;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contentordesign5 {
+  display: flex;
+  justify-content: center;
+}
+
+.subsc5design {
+  display: flex;
+  align-items: center;
+}
+
+.subsc5design img {
+  height: auto;
+  width: 35%;
+  margin-top: 3%;
+}
+
+.subsc5design .parte1 {
+  font-size: 350%;
+  color: #333333;
+  font-weight: bold;
+}
+
+.subsc5design .parte2 {
+  font-size: 350%;
+  color: #FF9100;
+  font-weight: bold;
+}
+
+.subsc5design p {
+  margin: -3%;
 }
