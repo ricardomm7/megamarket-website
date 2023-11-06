@@ -414,8 +414,8 @@ button:hover {
 }
 
 .subsc4design {
-  margin-top: 9%;
-  margin-bottom: 9%;
+  margin-top: 50%;
+  margin-bottom: 7%;
   text-align: center;
 }
 
@@ -426,22 +426,27 @@ button:hover {
 }
 
 .subsc4design .parte89 {
-  font-size: 300%;
+  font-size: 400%;
   color: #f1f1f1;
   font-weight: bold;
 }
 
 .subsc4design .parte90 {
-  font-size: 300%;
+  font-size: 400%;
   color: #00FF66;
   font-weight: bold;
 }
 
-.subsc4design p {
+.textomaisjunto p{
+  margin: -5%;
+}
+
+.textomaisclaroefundo  p {
   margin: -1%;
 }
 
-.textomaisclaro {
+.textomaisclaroefundo {
+  margin-top: 35%;
   font-size: 100%;
   color: #ffffff;
   opacity: 0.3;
