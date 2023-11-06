@@ -351,7 +351,7 @@ padding-top: 37px;
 
 .appdesign3{
   width: 35.7%; 
-  height: 100%; 
+  height: auto; 
   background-color: #F1F1F1; 
   border-radius: 50px;
   display: flex; 
@@ -406,13 +406,14 @@ padding-top: 37px;
   margin-right: auto;
 }
 
-.contentordesign3 {
+.contentordesign4 {
   display: flex; 
   justify-content: center;
 }
 
-.subsc3design {
+.subsc4design {
   margin-top: 9%;
+  margin-bottom: 9%;
   text-align: center;
 }
 
@@ -420,4 +421,27 @@ padding-top: 37px;
   display: flex; 
   justify-content: center;
   align-items: center;
+}
+
+.subsc4design .parte89{
+  font-size: 300%;
+  color: #f1f1f1;
+  font-weight: bold;  
+}
+
+.subsc4design .parte90{
+  font-size: 300%;
+  color: #00FF66;
+  font-weight: bold; 
+}
+
+.subsc4design p{
+  margin: -1%;
+}
+
+.textomaisclaro{
+  font-size: 100%;
+  color: #ffffff;
+  opacity: 0.3;
+  font-weight: normal;  
 }
