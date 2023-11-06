@@ -100,13 +100,13 @@ button:hover {
   position: fixed;
 }
 .tit1 {
-  color: #ff9100;
+  color: #ff9100; 
   font-size: 1010%;
-  font-family: Montserrat;
-  font-weight: 700px;
-  line-height: 151.92px;
-  word-wrap: break-word;
-  position: relative;
+  position:relative; 
+  font-family: Montserrat; 
+  font-weight: 700; 
+  line-height: 151.92px; 
+  word-wrap: break-word
 }
 
 .tit2 {

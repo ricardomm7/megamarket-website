@@ -67,25 +67,25 @@ button:hover {
 }
 
 .tit1 {
-  color: #ff9100;
-  font-size: 1010%;
-  font-family: Montserrat;
-  font-weight: 700;
-  line-height: 151.92px;
-  word-wrap: break-word;
-  position: relative;
+  color: #ff9100; 
+  font-size: 550%;
+  position:relative; 
+  font-family: Montserrat; 
+  font-weight: 700; 
+  line-height: 15%; 
+  word-wrap: break-word
 }
 
 .tit2 {
-  font-size: 800%;
+  font-size: 450%;
   color: white;
   font-family: Montserrat;
   font-weight: 700;
-  line-height: 110px;
-  word-wrap: break-word;
+  line-height: 110%;
+  
 }
 .main-telemovel img {
-  height: 450px;
+  height: 400px;
   width: auto;
   flex-shrink: 0;
   display: flex;
@@ -95,7 +95,7 @@ button:hover {
 
 .main-fundocinzento{
   width: 100%;
-  height: 390px;
+  height: 450px;
   background-color: #333333;
   position: absolute;
 } 
@@ -103,7 +103,7 @@ button:hover {
 .main-parabola{
   width: 100%;
   height: auto;
-  margin-top: -280px;
+  margin-top: -80px;
 }
 
 .main-ideia h1 {
@@ -111,9 +111,10 @@ button:hover {
   margin-top: -5%;
   text-align: center;
   color: #000000;
-  font-size: 80px;
+  font-size: 60px;
   font-family: Montserrat;
   word-wrap: break-word;
+
 }
 
 .app h1{  
@@ -121,7 +122,7 @@ button:hover {
   margin-top: 2.5%;
   text-align: center;
   color: #000000;
-  font-size: 80px;
+  font-size: 60px;
   font-family: Montserrat;
   word-wrap: break-word;
 }
@@ -131,7 +132,7 @@ button:hover {
   margin-top: 2.5%;
   text-align: center;
   color: #000000;
-  font-size: 80px;
+  font-size: 60px;
   font-family: Montserrat;
   word-wrap: break-word;
 }
@@ -143,6 +144,7 @@ button:hover {
   align-items: center;
   flex-shrink: 2;
   margin-top: -15px;
+
 }
 
 .curva {
@@ -152,11 +154,13 @@ button:hover {
 .contentorideia {
   display: flex; 
   justify-content: center;
+  margin: 15px;
 }
 
 .subsc1ideia{
   display: flex;
   align-items: center;
+  margin: 15px;
 }
 
 .subsc1ideia img{
@@ -165,15 +169,17 @@ button:hover {
 }
 
 .subsc1ideia .parte1 {
-  font-size: 350%;
+  font-size: 200%;
   color: #333333;
   font-weight: bold;
+  margin: 15px;
 }
 
 .subsc1ideia .parte2 {
-  font-size: 350%;
+  font-size: 250%;
   color: #FF9100;
-  font-weight: bold;  
+  font-weight: bold;
+  
 }
 
 .subsc1ideia p{
@@ -197,13 +203,13 @@ button:hover {
 }
 
 .subsc2ideia .parte4 {
-  font-size: 350%;
+  font-size: 200%;
   color: #333333;
   font-weight: bold;
 }
 
 .subsc2ideia .parte5 {
-  font-size: 350%;
+  font-size: 200%;
   color: #ff9100;
   font-weight: bold;
 }
@@ -211,10 +217,12 @@ button:hover {
 .texto-esquerda {
   flex: 1;
   text-align: left;
+  margin: 15px;
 }
 
 .subsc2ideia p{
   margin: -1%;
+
 }
 
 .subsc2ideia img {
@@ -225,27 +233,27 @@ button:hover {
 .universo{
   margin-top: 5%;
   background-image: url(Media/fundoideia.jpg);
-  height: 550px;
+  height: 425px;
   background-position: center;
   display: flex;
   align-items: center;
 }
 
 .textouniverso p{
-  margin: -1%;
+  margin: 1px;
   margin-left: 10%;
   letter-spacing: 1px;
-  width: max-content;
+  width: 90%;
 }
 
 .textouniverso .parte6{
-  font-size: 200%;
+  font-size: 150%;
   font-weight: bold;
   opacity: 0.5 ;
 }
 
 .textouniverso .parte7{
-  font-size: 350%;
+  font-size: 225%;
   font-weight: bold;
 }
 
@@ -278,13 +286,13 @@ button:hover {
 }
 
 .subsc1design .parte1 {
-  font-size: 350%;
+  font-size: 200%;
   color: #333333;
   font-weight: bold;
 }
 
 .subsc1design .parte2 {
-  font-size: 350%;
+  font-size: 200%;
   color: #FF9100;
   font-weight: bold;  
 }
@@ -296,7 +304,7 @@ button:hover {
 
 .appdesign2{
   width: 75%; 
-  height: 100%; 
+  height: auto; 
   background-image: url(Media/mosaicoapps.webp); 
   background-position: center;
   border-radius: 50px;
@@ -329,7 +337,7 @@ button:hover {
 
 .subsc2design p{
   margin: -1%;
-  font-size: 275%;
+  font-size: 155%;
   color: #f1f1f1;
   font-weight: bold;
   text-align: center;
@@ -360,17 +368,17 @@ button:hover {
 
 .subsc3design img {
   margin-top: 9%;
-  height: 325px;
+  height: 215px;
 }
 
 .subsc3design .parte8{
-  font-size: 270%;
+  font-size: 130%;
   color: #FF9100;
   font-weight: bold;  
 }
 
 .subsc3design .parte9{
-  font-size: 270%;
+  font-size: 130%;
   color: #333333;
   font-weight: bold;  
 }
@@ -379,12 +387,12 @@ button:hover {
   margin: -1%;
 }
 
-.appdesign4{
-  width: 35.7%; 
-  height: 100%; 
-  background-color: #333333; 
+.appdesign4 {
+  width: 35.7%;
+  height: 100%;
+  background-color: #333333;
   border-radius: 50px;
-  display: flex; 
+  display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 1.8%;
@@ -392,19 +400,92 @@ button:hover {
   margin-right: auto;
 }
 
-.contentordesign3 {
-  display: flex; 
+.contentordesign4 {
+  display: flex;
   justify-content: center;
 }
 
-.subsc3design {
-  margin-top: 9%;
+.subsc4design {
+  margin-top: 50%;
+  margin-bottom: 7%;
   text-align: center;
 }
 
 .contentorcontentordesign {
-  display: flex; 
+  display: flex;
   justify-content: center;
   align-items: center;
 }
+
+.subsc4design .parte89 {
+  font-size: 170%;
+  color: #f1f1f1;
+  font-weight: bold;
+}
+
+.subsc4design .parte90 {
+  font-size: 200%;
+  color: #00FF66;
+  font-weight: bold;
+}
+
+.textomaisjunto p{
+  margin: -5%;
+}
+
+.textomaisclaroefundo  p {
+  margin: -1%;
+}
+
+.textomaisclaroefundo {
+  margin-top: 35%;
+  font-size: 80%;
+  color: #ffffff;
+  opacity: 0.3;
+  font-weight: normal;
+}
+
+.appdesign5 {
+  width: 75%;
+  height: 100%;
+  background: #F1F1F1;
+  border-radius: 50px;
+  display: flex;
+  margin-top: 1.8%;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contentordesign5 {
+  display: flex;
+  justify-content: center;
+}
+
+.subsc5design {
+  display: flex;
+  align-items: center;
+}
+
+.subsc5design img {
+  height: auto;
+  width: 35%;
+  margin-top: 3%;
+}
+
+.subsc5design .parte1 {
+  font-size: 200%;
+  color: #333333;
+  font-weight: bold;
+}
+
+.subsc5design .parte2 {
+  font-size: 200%;
+  color: #FF9100;
+  font-weight: bold;
+}
+
+.subsc5design p {
+  margin: -3%;
 }
