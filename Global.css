@@ -37,6 +37,7 @@ button:hover {
   width: 80%;
   display: flex;
   background-color: #333333dd;
+  backdrop-filter: blur(10px);
   height: 60px;
   align-items: center;
   justify-content: space-between;
@@ -106,6 +107,12 @@ button:hover {
 
 .slogan {
   padding-top: 55px;
+}
+
+.sloganslogan{
+  text-align: center;
+  position:relative;
+  padding-top: 20px;
 }
 
 .titulo1 div {
