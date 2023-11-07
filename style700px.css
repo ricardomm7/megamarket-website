@@ -140,7 +140,7 @@ button:hover {
 .sloganslogan{
   text-align: center;
   position:relative;
-  padding-top: 20px;
+  padding-top: 50px;
 }
 
 .tit1 {
@@ -180,15 +180,15 @@ button:hover {
 .main-parabola{
   width: 100%;
   height: auto;
-  margin-top: -80px;
+  margin-top: -110px;
 }
 
 .main-ideia h1 {
   padding-top: 3%;
-  margin-top: -5%;
+  margin-top: -1%;
   text-align: center;
   color: #000000;
-  font-size: 60px;
+  font-size: 50px;
   font-family: Montserrat;
   word-wrap: break-word;
 
@@ -199,7 +199,7 @@ button:hover {
   margin-top: 2.5%;
   text-align: center;
   color: #000000;
-  font-size: 60px;
+  font-size: 50px;
   font-family: Montserrat;
   word-wrap: break-word;
 }
@@ -209,14 +209,14 @@ button:hover {
   margin-top: 2.5%;
   text-align: center;
   color: #000000;
-  font-size: 60px;
+  font-size: 50px;
   font-family: Montserrat;
   word-wrap: break-word;
 }
 
 .imgequipa img{
   margin: 5% 0;
-  height: 350px;
+  height: 280px;
   width: auto;
   align-items: center;
   flex-shrink: 2;
@@ -227,8 +227,19 @@ button:hover {
 .curva svg {
   height: auto;
   width: 100%;
-  margin-bottom: -5%;
-  }
+  margin-bottom: -1%;
+}
+
+.curva img {
+  height: 65px;
+  margin-bottom: 0.25%;
+  margin-top: 1%;
+}
+
+.curva p {
+  margin: 0%;
+  opacity: 0.5;
+}
 
 .contentorideia {
   display: flex; 
@@ -248,14 +259,13 @@ button:hover {
 }
 
 .subsc1ideia .parte1 {
-  font-size: 200%;
+  font-size: 160%;
   color: #333333;
   font-weight: bold;
-  margin: 15px;
 }
 
 .subsc1ideia .parte2 {
-  font-size: 250%;
+  font-size: 160%;
   color: #FF9100;
   font-weight: bold;
   
@@ -282,13 +292,13 @@ button:hover {
 }
 
 .subsc2ideia .parte4 {
-  font-size: 200%;
+  font-size: 160%;
   color: #333333;
   font-weight: bold;
 }
 
 .subsc2ideia .parte5 {
-  font-size: 200%;
+  font-size: 160%;
   color: #ff9100;
   font-weight: bold;
 }
@@ -301,18 +311,18 @@ button:hover {
 
 .subsc2ideia p{
   margin: -1%;
-
 }
 
 .subsc2ideia img {
-  width: 35%;
+  width: 28%;
   height: auto;
+  margin-right: 3%;
 }
 
 .universo{
   margin-top: 5%;
   background-image: url(Media/fundoideia.jpg);
-  height: 425px;
+  height: 350px;
   background-position: center;
   display: flex;
   align-items: center;
@@ -332,15 +342,15 @@ button:hover {
 }
 
 .textouniverso .parte7{
-  font-size: 225%;
+  font-size: 180%;
   font-weight: bold;
 }
 
 .appdesign{
-  width: 75%; 
+  width: 95%; 
   height: 100%; 
   background: #F1F1F1; 
-  border-radius: 50px;
+  border-radius: 30px;
   display: flex; 
   justify-content: center;
   align-items: center;
@@ -360,18 +370,19 @@ button:hover {
 
 .subsc1design img{
   height: auto;
-  width: 35%;
+  width: 30%;
   margin-top: 1%;
+  margin-left: 5%;
 }
 
 .subsc1design .parte1 {
-  font-size: 200%;
+  font-size: 144%;
   color: #333333;
   font-weight: bold;
 }
 
 .subsc1design .parte2 {
-  font-size: 200%;
+  font-size: 144%;
   color: #FF9100;
   font-weight: bold;  
 }
@@ -382,11 +393,11 @@ button:hover {
 }
 
 .appdesign2{
-  width: 75%; 
+  width: 95%; 
   height: auto; 
   background-image: url(Media/mosaicoapps.webp); 
   background-position: center;
-  border-radius: 50px;
+  border-radius: 30px;
   display: flex; 
   justify-content: center;
   align-items: center;
@@ -401,7 +412,7 @@ button:hover {
   height: 100%; 
   background-color: rgba(51, 51, 51, 0.6); 
   backdrop-filter: blur(10px);
-  border-radius: 50px;
+  border-radius: 30px;
   display: flex; 
   align-items: center;
   margin-top: 20%;
@@ -416,17 +427,17 @@ button:hover {
 
 .subsc2design p{
   margin: -1%;
-  font-size: 155%;
+  font-size: 145%;
   color: #f1f1f1;
   font-weight: bold;
   text-align: center;
 }
 
 .appdesign3{
-  width: 35.7%; 
+  width: 45%; 
   height: 100%; 
   background-color: #F1F1F1; 
-  border-radius: 50px;
+  border-radius: 30px;
   display: flex; 
   justify-content: center;
   align-items: center;
@@ -447,17 +458,17 @@ button:hover {
 
 .subsc3design img {
   margin-top: 9%;
-  height: 215px;
+  height: 140px;
 }
 
 .subsc3design .parte8{
-  font-size: 130%;
+  font-size: 125%;
   color: #FF9100;
   font-weight: bold;  
 }
 
 .subsc3design .parte9{
-  font-size: 130%;
+  font-size: 125%;
   color: #333333;
   font-weight: bold;  
 }
@@ -467,10 +478,10 @@ button:hover {
 }
 
 .appdesign4 {
-  width: 35.7%;
+  width: 45%;
   height: 100%;
   background-color: #333333;
-  border-radius: 50px;
+  border-radius: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -497,13 +508,13 @@ button:hover {
 }
 
 .subsc4design .parte89 {
-  font-size: 170%;
+  font-size: 150%;
   color: #f1f1f1;
   font-weight: bold;
 }
 
 .subsc4design .parte90 {
-  font-size: 200%;
+  font-size: 150%;
   color: #00FF66;
   font-weight: bold;
 }
@@ -518,17 +529,17 @@ button:hover {
 
 .textomaisclaroefundo {
   margin-top: 35%;
-  font-size: 80%;
+  font-size: 52%;
   color: #ffffff;
   opacity: 0.3;
   font-weight: normal;
 }
 
 .appdesign5 {
-  width: 75%;
+  width: 95%;
   height: 100%;
   background: #F1F1F1;
-  border-radius: 50px;
+  border-radius: 30px;
   display: flex;
   margin-top: 1.8%;
   justify-content: center;
@@ -549,18 +560,19 @@ button:hover {
 
 .subsc5design img {
   height: auto;
-  width: 35%;
+  width: 30%;
   margin-top: 3%;
+  margin-right: 5%;
 }
 
 .subsc5design .parte1 {
-  font-size: 200%;
+  font-size: 144%;
   color: #333333;
   font-weight: bold;
 }
 
 .subsc5design .parte2 {
-  font-size: 200%;
+  font-size: 144%;
   color: #FF9100;
   font-weight: bold;
 }
