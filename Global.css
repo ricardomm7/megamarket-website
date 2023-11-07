@@ -210,12 +210,16 @@ margin-bottom: -13%
 }
 
 .curva img{
-  height: 40px;
+  height: 65px;
+  margin-bottom: 1%;
+  margin-top: 1%;
 }
 
-.curva p img{
-  margin: -5%;
+.curva p{
+  margin:0%;
+  opacity: 0.5;
 }
+
 .contentorideia {
   display: flex;
   justify-content: center;
@@ -546,5 +550,5 @@ margin-bottom: -13%
 }
 
 .subsc5design p {
-  margin: -3%;
+  margin: -1%;
 }
