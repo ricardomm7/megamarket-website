@@ -568,4 +568,22 @@ button:hover {
 .subsc5design p {
   margin: -3%;
 }
+
+.curva svg {
+  height: 100%;
+  width: 100%;
+  margin-bottom: -14%
+  }
+  
+  .curva img{
+    height: 20px;
+  }
+  
+  .curva p img{
+    margin: -3%;
+  }
+
+  .curva p{
+    font-size: 10px;
+  }
 }

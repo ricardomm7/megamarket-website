@@ -206,9 +206,16 @@ button:hover {
 .curva svg {
 height: auto;
 width: 100%;
-margin-bottom: -5%;
+margin-bottom: -13%
 }
 
+.curva img{
+  height: 40px;
+}
+
+.curva p img{
+  margin: -5%;
+}
 .contentorideia {
   display: flex;
   justify-content: center;
