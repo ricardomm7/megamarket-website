@@ -83,7 +83,7 @@ button:hover {
   left: 0;
   width: 100%;
   height: 0;
-  background-color: rgba(51, 51, 51, 0.6);
+  background-color: rgba(51, 51, 51, 0.877);
   backdrop-filter: blur(10px);
   text-align: center;
   transition: .3s ease;
@@ -119,7 +119,7 @@ button:hover {
 
 #check:checked~.menu-links a{
   transform: translateY(0);
-  transition-delay: calc(.65s * var(--i));
+  transition-delay: calc(.30s * var(--i));
   opacity: 1;
 }
 
