@@ -45,17 +45,19 @@ button:hover {
   color: white;
   height: 10vh;
   z-index: 999;
+  left: -38px;
 }
 
 .menu-logo img {
   height: 40px;
   width: auto;
   display: flex;
+  margin: 25px;
 }
 
 .menu-links a {
   text-decoration: none;
-  margin: 15px;
+  margin: 25px;
   color: white;
   position: relative;
   font-size: 15px;
