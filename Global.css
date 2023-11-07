@@ -86,14 +86,14 @@ button:hover {
   transition: transform 1000ms;
 }
 
-.iconos{
+.iconos {
   font-size: 2.8rem;
   color: #FFF;
   cursor: pointer;
   display: none;
 }
 
-#check{
+#check {
   display: none;
 }
 
@@ -111,9 +111,9 @@ button:hover {
   padding-top: 55px;
 }
 
-.sloganslogan{
+.sloganslogan {
   text-align: center;
-  position:relative;
+  position: relative;
   padding-top: 20px;
 }
 
@@ -125,13 +125,14 @@ button:hover {
   font-style: bold;
   position: fixed;
 }
+
 .tit1 {
-  color: #ff9100; 
+  color: #ff9100;
   font-size: 1010%;
-  position:relative; 
-  font-family: Montserrat; 
-  font-weight: 700; 
-  line-height: 151.92px; 
+  position: relative;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: 151.92px;
   word-wrap: break-word;
 }
 
@@ -206,18 +207,22 @@ button:hover {
 }
 
 .curva svg {
-height: auto;
-width: 100%;
-margin-bottom: -13%
+  height: auto;
+  width: 100%;
+  margin-bottom: -13%
 }
 
-.curva img{
-  height: 40px;
+.curva img {
+  height: 65px;
+  margin-bottom: 1%;
+  margin-top: 1%;
 }
 
-.curva p img{
-  margin: -5%;
+.curva p {
+  margin: 0%;
+  opacity: 0.5;
 }
+
 .contentorideia {
   display: flex;
   justify-content: center;
@@ -490,11 +495,11 @@ margin-bottom: -13%
   font-weight: bold;
 }
 
-.textomaisjunto p{
+.textomaisjunto p {
   margin: -5%;
 }
 
-.textomaisclaroefundo  p {
+.textomaisclaroefundo p {
   margin: -1%;
 }
 
@@ -548,5 +553,5 @@ margin-bottom: -13%
 }
 
 .subsc5design p {
-  margin: -3%;
+  margin: -1%;
 }
