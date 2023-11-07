@@ -3,6 +3,8 @@
   src: url(Media/Montserrat-VariableFont_wght.ttf)
 }
 
+
+
 html {
   scroll-behavior: smooth;
 }
@@ -31,13 +33,17 @@ button:hover {
 }
 
 .menu {
+  position: fixed;
+  width: 80%;
   display: flex;
-  background-color: #333333;
+  background-color: #333333dd;
   height: 60px;
   align-items: center;
   justify-content: space-between;
   padding: 0 13%;
   color: white;
+  height: 10vh;
+  z-index: 999;
 }
 
 .menu-logo img {
@@ -77,6 +83,17 @@ button:hover {
   transition: transform 1000ms;
 }
 
+.iconos{
+  font-size: 2.8rem;
+  color: #FFF;
+  cursor: pointer;
+  display: none;
+}
+
+#check{
+  display: none;
+}
+
 .main {
   flex: 1;
   display: flex;
@@ -88,7 +105,7 @@ button:hover {
 }
 
 .slogan {
-  padding-top: 37px;
+  padding-top: 55px;
 }
 
 .titulo1 div {
@@ -106,7 +123,7 @@ button:hover {
   font-family: Montserrat; 
   font-weight: 700; 
   line-height: 151.92px; 
-  word-wrap: break-word
+  word-wrap: break-word;
 }
 
 .tit2 {
@@ -179,8 +196,10 @@ button:hover {
   margin-top: -15px;
 }
 
-.curva {
-  /*precisa-se de adicionar algo aqui para tirar aquela linha branca nojenta do fundo do site*/
+.curva svg {
+height: auto;
+width: 100%;
+margin-bottom: -5%;
 }
 
 .contentorideia {

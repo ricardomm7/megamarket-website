@@ -6,8 +6,9 @@
   <title>MegaMarket</title>
   <link rel="icon" type="image/x-png" href="./Media/justmm.png">
   <link rel="stylesheet" href="Global.css" >
-  <link rel="stylesheet" href="stylesheet.css" >
+  <link rel="stylesheet" href="style700px.css" >
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
 <body>
@@ -21,11 +22,18 @@
     <div class="menu-logo">
       <img src="Media/mmcompleto.png" alt="Logo" ondragstart="return false;">
     </div>
+
+    <input type="checkbox" id="check">
+    <label for="check"class="iconos">
+      <i class='bx bx-menu' id="menu-icono"></i>
+      <i class='bx bx-x' id="close-icono"></i>
+    </label>
+
     <div class="menu-links">
-      <a href="#seccaoinicio">INÍCIO</a>
-      <a href="#seccaoideia">IDEIA</a>
-      <a href="#seccaoapp">APP</a>
-      <a href="#seccaoequipa">EQUIPA</a>
+      <a href="#seccaoinicio" style="--i;0">INÍCIO</a>
+      <a href="#seccaoideia" style="--i;1">IDEIA</a>
+      <a href="#seccaoapp" style="--i;2">APP</a>
+      <a href="#seccaoequipa" style="--i;3">EQUIPA</a>
     </div>
   </div>
 
@@ -44,7 +52,7 @@
       </div>
       <div class="slogan">
         <p class="titulo1">
-        <div style="text-align: center; position:relative;">
+        <div style="text-align: center; position:relative; padding-top: 20px;">
           <span class="tit1">COMPRAS<br /> </span>
           <span class="tit2">SEM LIMITES </span>
           </div>

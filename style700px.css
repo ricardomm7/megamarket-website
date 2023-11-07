@@ -1,4 +1,4 @@
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 900px){
 @font-face {
   font-family: Montserrat;
   src: url(Media/Montserrat-VariableFont_wght.ttf)
@@ -30,13 +30,17 @@ button:hover {
 }
 
 .menu {
+  position: fixed;
+  width: 80%;
   display: flex;
-  background-color: #333333;
+  background-color: #333333dd;
   height: 60px;
   align-items: center;
   justify-content: space-between;
-  padding: 0 13%; 
+  padding: 0 13%;
   color: white;
+  height: 10vh;
+  z-index: 999;
 }
 
 .menu-logo img {
@@ -48,8 +52,75 @@ button:hover {
   position: relative;
 }
 
-.menu-links a {
+#check{
   display: none;
+}
+
+.iconos  {
+  font-size: 2.0rem;
+  color: #FFF;
+  cursor: pointer;
+  display: flex;
+  position: absolute;
+  right: 15%;
+}
+
+.iconos #close-icono{
+  display: none;
+}
+
+#check:checked~.iconos #menu-icono{
+  display: none ;
+}
+
+#check:checked~.iconos #close-icono{
+  display: block ;
+}
+
+.menu-links  {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 0;
+  background-color: rgba(51, 51, 51, 0.6);
+  backdrop-filter: blur(50px);
+  text-align: center;
+  transition: .3s ease;
+  overflow: hidden;
+}
+
+.menu-links a{
+  display: block;
+  font-size: 1.1rem;
+  margin: 1.5rem 0;
+  text-align: center;
+  width: 100%;
+  transform: translateY(-50px);
+  opacity: 0;
+  transition: .3s ease;
+}
+.menu-links a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 3px;
+  background-color: #ff9100;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 1000ms
+}
+
+#check:checked~.menu-links{
+  height: 17.7rem;
+}
+
+#check:checked~.menu-links a{
+  transform: translateY(0);
+  transition-delay: calc(.65s * var(--i));
+  opacity: 1;
 }
 
 .main{
@@ -90,12 +161,12 @@ button:hover {
   flex-shrink: 0;
   display: flex;
   position: relative;
-  margin-top: -80px;
+  margin-top: -70px;
 }
 
 .main-fundocinzento{
   width: 100%;
-  height: 450px;
+  height: 480px;
   background-color: #333333;
   position: absolute;
 } 
@@ -147,9 +218,11 @@ button:hover {
 
 }
 
-.curva {
- /*precisa-se de adicionar algo aqui para tirar aquela linha branca nojenta do fundo do site*/
-}
+.curva svg {
+  height: auto;
+  width: 100%;
+  margin-bottom: -5%;
+  }
 
 .contentorideia {
   display: flex; 
