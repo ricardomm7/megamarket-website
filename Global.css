@@ -199,7 +199,7 @@ button:hover {
 
 .imgequipa img {
   margin: 1%;
-  height: 350px;
+  height: 550px;
   width: auto;
   align-items: center;
   flex-shrink: 2;
@@ -209,7 +209,7 @@ button:hover {
 .curva svg {
   height: auto;
   width: 100%;
-  margin-bottom: -13%
+  margin-bottom: -15%
 }
 
 .curva img {
